@@ -3,7 +3,7 @@
 - 단순 Chunk 처리 예시
 ## 구조
 ```
-combat0001
+combat0002
 ├── BatchApplication.java
 ├── config
 │   └── BatchConfig.java

@@ -11,7 +11,7 @@
 ### Project root
 - settings.gradle: 모듈 등록
 ### nova-batch-common
-- 배치에서 샤용할 공통 기능을 모아둔 모듈이다.
+- 배치에서 사용할 공통 기능을 모아둔 모듈이다.
 - com.skt.nova.batch.common 패키지에 위치한다.
 - Job 모듈 패키지(com.skt.nova.batch) 하위 패키지로 설정하여 컴포넌트 스캔이 가능하게 한다.
 ### combat0001, combat0002
@@ -20,7 +20,7 @@
 - 실제 비즈니스 애플리케이션을 구현하는 모듈이다.
 - com.skt.nova.batch 패키지에 위치한다.
   - BatchApplication 클래스가 존재하며, main() 메소드를 이 클래스에 구현한다.
-- 각 Job별로 필요한 의존성, 애플리케이션, 로깅 설정을 한다.
+- 각 Job 별 필요한 의존성, 애플리케이션, 로깅 설정을 한다.
   - build.gradle: 의존성
   - application.yml: 애플리케이션 설정
   - logback-spring.xml: 로깅 설정

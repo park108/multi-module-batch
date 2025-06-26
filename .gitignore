@@ -1,0 +1,23 @@
+# Gradle files
+.gradle/
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Build directories for each module
+**/build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+logs/
+tmp/
+*.log
+
+# Java class files
+*.class

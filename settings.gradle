@@ -1,0 +1,5 @@
+rootProject.name = 'multi-module-batch'
+
+include 'nova-batch-common'
+include 'combat0001'
+include 'combat0002'
